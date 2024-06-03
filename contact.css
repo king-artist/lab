@@ -1,0 +1,67 @@
+
+header{
+    background-color: aliceblue;
+    width: 100%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 120px;
+    height: 200px;
+}
+
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+}
+.site {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(102, 144, 190);
+    
+}
+.site a{
+    text-decoration: none;
+    
+    padding: 20px;
+}
+
+.site a:hover{
+     
+    background-color:silver ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.right input{
+    width: 100%;
+    margin: 10px;
+}
+.right #comment{
+    height : 60px;
+}
+.right button{
+    width: 100%;
+}
